@@ -1,5 +1,4 @@
-
-/* Type Selectors */
+/* Type Selectors ------------------ */
 
 body {
   color: #878787;
@@ -20,7 +19,25 @@ h3 {
   color: #48525c;
 }
 
-/* ID Selectors */
+/* Pseudo-classes ------------------ */
+
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: lightblue;
+}
+
+a:hover {
+  color: forestgreen;
+}
+
+a:active {
+  color: lightcoral;
+}
+
+/* ID Selectors -------------------- */
 
 #main-footer {
   padding-top: 60px;
@@ -28,7 +45,7 @@ h3 {
   border-bottom: solid 10px orange;
 }
 
-/* Class Selectors */
+/* Class Selectors ----------------- */
 
 .main-header {
   background-color: orange;
@@ -44,33 +61,8 @@ h3 {
 }
 
 .t-border {
-  border-top: 2px solid lightgrey;
+  border-top: 2px solid lightgrey; /* Top border styles */
 }
-
-/* Pseud-class Selectors */
-
-a:link {
-	color: orange;
-}
-
-a:visited {
-	color: lightblue;
-}
-
-a:hover {
-	color: forestgreen;
-}
-
-a:active {
-	color: lightcoral;
-}
-
-:focus {
-	color: white;
-	background-color: orange;
-}
-
-
 
 
 
