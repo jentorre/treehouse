@@ -49,11 +49,17 @@ a:active {
 
 .main-header {
   background-color: orange;
+  width: 960px;
 }
 
 .title {
   color: white;
   font-size: 26px;
+}
+
+.primary-content, 
+.secondary-content {
+	width: 60%;
 }
 
 .primary-content {
