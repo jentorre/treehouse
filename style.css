@@ -117,7 +117,7 @@ a:active {
   padding-left: 50px;
   padding-right: 50px;
   margin: auto;
-  max-width: 900px;
+  max-width: 960px;
 }
 
 .wildlife {
@@ -130,8 +130,10 @@ a:active {
 
 .arrow {
   width: 50px;
-
 }
+
+
+
 
 
 
