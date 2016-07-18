@@ -37,8 +37,15 @@ img {
   margin-bottom: 20px;
 }
 
-ul {
-  list-style-type: square;
+ul,
+ol {
+  margin: 30px 0;
+
+}
+
+
+li {
+  margin-bottom: 10px;
 }
 
 /* Pseudo-classes ------------------ */
