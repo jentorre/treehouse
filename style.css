@@ -190,8 +190,6 @@ a:active {
   float: right;
 }
 
-
-
 /* Float Clearfix ------------------ */
 
 .group:after {
@@ -200,9 +198,27 @@ a:active {
   clear: both;
 }
 
+/* Media Queries -------------------- */
 
+@media (max-width: 960px) {
+  body {
+    background: royalblue;
+  }
+}
 
+@media (max-width: 480px) {
+  body {
+    background: darkred;
+  }
+}
 
-
+@media (min-width: 481px) and (max-width: 700px) {
+  body {
+    background: seagreen;
+  }
+  p {
+    color: white;
+  }
+}
 
 
